@@ -3,9 +3,17 @@
         <h1  class="text-center text-black">Alta de libro</h1>
         <form action="/nuevoLibro" method="POST">
             <div class="mb-3">
-                <label for="titulo">Titulo</label>
-                <input type="text" name="titulo" id="titulo">
+                <label for="titulo" class="form-label text-white">Titulo</label>
+                <input type="text" class = "form-control" name="titulo" id="titulo">
             </div>
+            <div class="mb-3">
+                <label for="autor" class="form-label text-white"></label>
+                  <input type="text" class = "form-control" name="autor" id="autor">
+            </div>
+
+            <button type="submit" class="btn btn-sucess mt-2">
+                Guardar
+            </button>
         </form>
     </div>
 </div>
